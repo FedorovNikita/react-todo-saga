@@ -1,0 +1,15 @@
+@import '../../assets/styles/_variables';
+
+.todo__form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form__input {
+  width: 100%;
+}
+
+.form__btn {
+  margin-left: 15px;
+}

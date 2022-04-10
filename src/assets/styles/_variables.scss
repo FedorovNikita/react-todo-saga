@@ -1,0 +1,25 @@
+// Внутренние переменные
+$black: #000000;
+$blue: #2A5EE9;
+$white: #FFFFFF;
+$white-grey: #F6F6F6;
+$grey: #ADADAD;
+$red: #FF0000;
+$light-green: #7EDFA5;
+$light-red: #F27575;
+$green: #19ff19;
+
+// Глобальные переменные
+$background: $white;
+$primary-dark-color: $black;
+$primary-light-color: $white;
+$primary-active-color: $green;
+$secondary-active-color: $light-green;
+$tertiary-active-color: $light-red;
+$secondary-dark-color: $grey;
+$secondary-light-color: $white-grey;
+$error-color: $red;
+
+$monst-bold: 'montserratbold', Arial, sans-serif;
+$monst-medium: 'montserratmedium', Arial, sans-serif;
+$monst-semibold: 'montserratsemibold', Arial, sans-serif;

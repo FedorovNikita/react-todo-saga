@@ -1,0 +1,89 @@
+@import './fonts.scss';
+@import './variables.scss';
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box; 
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; 
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: $monst-bold;
+  color: $primary-dark-color;
+  background-color: $background;
+  background-repeat: no-repeat;
+  background-position: center 0;
+}
+
+// img {
+//   max-width: 100%;
+//   height: auto;
+// }
+
+a {
+  text-decoration: none; 
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 20px 20px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo__wrap {
+  width: 500px;
+}
+
+.input {
+  padding: 15px 25px;
+  background: #F1F1F1;
+  border-radius: 10px;
+  border: none;
+  font-family: $monst-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: $primary-dark-color;
+}
+
+.btn {
+  padding: 15px 20px;
+  text-align: center;
+  background: $blue;
+  color: $primary-light-color;
+  border-radius: 10px;
+  border: none;
+  font-family: $monst-semibold;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+

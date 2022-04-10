@@ -1,0 +1,39 @@
+@import '../../assets/styles/_variables';
+
+.todo__item {
+  margin-top: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item__name {
+  margin-right: auto;
+  padding-left: 15px;
+  &--done {
+    text-decoration: line-through;
+    color: $primary-active-color;
+  }
+}
+
+.item__btn {
+  margin-left: 10px;
+  font-size: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  &--delete {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    background-image: url('../../assets/img/png/delete.png');
+  }
+  &--done {
+    width: 25px;
+    min-width: 25px;
+    height: 25px;
+    background-image: url('../../assets/img/png/done.png');
+  }
+}
